@@ -1,0 +1,183 @@
+/*
+* Easy Digital Downloads Dashboard
+* since ver 1.0.0
+*
+*/
+
+/* BOOTSTRAP STYLES */
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav li {
+    list-style: none;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    margin-left: 0;
+}
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+.btn-group-vertical>.btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+    clear: both;
+}
+.tab-content>.tab-pane {
+    display: none;
+}
+.tab-content>.active {
+    display: block;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+/*  MENU & CONTENTS */
+.account__logout img {
+	margin: 0;
+	width: 1.5rem;
+	vertical-align:middle;
+}
+.fes-vendor-dashboard table th, .extended__dashboard__tab__content table th, .page-template-edd_defaults .edd__default__content table th {
+    background: #333333 !important;
+    color: #ffffff;
+    border: 1px solid #e0deff;
+}
+.page-template-dasboard-extended,
+.page-template-extended-dashboard-template {
+    background: #f9fcff;
+}
+.page-template-dasboard-extended .content-area {
+    overflow: hidden;
+}
+.extended__dasboard__tab__menu {
+    background: #ffffff;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.extended__dasboard__tab__menu ul li {
+    margin-bottom: 0;
+}
+.extended__dasboard__tab__menu ul li a {
+    background: #ffffff;
+    padding: 10px 30px;
+    border-radius: 0;
+    border:0;
+}
+
+.extended__dasboard__tab__menu ul li.active a,
+.extended__dasboard__tab__menu ul li a:hover,
+.extended__dasboard__tab__menu ul li a:focus {
+    background: #222222 !important;
+    color: #ffffff !important;
+    border: 0 !important;
+}
+
+.extended__dasboard__tab__menu ul li:hover img,
+.extended__dasboard__tab__menu ul li.active img{
+    filter: invert(100%) !important;
+}
+
+.extended__dashboard__tab__content {
+    background: #ffffff;
+    padding: 30px;
+}
+
+.extended__dashboard__tab__content input {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.extended__dashboard__tab__content select {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.extended__dashboard__tab__content legend {
+    padding-bottom: 15px;
+}
+
+.extended__dashboard__tab__content input[type="submit"].edd-submit {
+    width: auto;
+    border-radius: 3px;
+    padding: 15px 30px;
+    min-width: 180px;
+    font-size: inherit;
+    border-radius: inherit;
+    border: 0;
+    transition: 0.3s;
+    border: 1px solid;
+}
+.extended__dashboard__tab__content input[type="submit"].edd-submit:hover,
+.extended__dashboard__tab__content input[type="submit"].edd-submit:focus {
+    outline: 0;
+}
+
+#edd_login_form #rememberme {
+    width: auto;
+}
+
+
+/*  PROFILE */
+
+.user-dashboard-page .dasboard-tab {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#edd_profile_editor_form .row > div {
+    margin-bottom: 20px;
+}
+
+#edd_profile_address_fieldset  {
+     margin-bottom: 30px; 
+}
+.user-dashboard-page legend {
+    padding-bottom: 10px;
+}
+.user-dashboard-page input,
+.user-dashboard-page select {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .extended__dasboard__tab__menu ul li a {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .extended__dasboard__tab__menu ul li a {
+        margin-bottom: 15px;
+    }
+}
+/* suport panel */
+#support .bootstrap-iso .col-xs-12 {
+    margin-left: 0;
+}
